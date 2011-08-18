@@ -33,7 +33,7 @@ public class Producer implements Runnable
             for (Integer i = 1; i < 5 + 1; ++i)
             {
                 System.out.println("Producer produced: " + i);
-                Thread.sleep(100);
+//                Thread.sleep(100);
                 broker.put(i);
             }
             
