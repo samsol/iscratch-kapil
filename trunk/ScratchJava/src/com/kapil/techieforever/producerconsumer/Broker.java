@@ -30,6 +30,6 @@ public class Broker
     
     public Integer get() throws InterruptedException
     {
-        return this.queue.poll(10, TimeUnit.SECONDS);
+        return this.queue.poll(1, TimeUnit.SECONDS);
     }
 }
